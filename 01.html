@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+		<title></title>
+		<style>
+				/* block level element */
+				h1 {
+                    font-size:50px;
+                    color: blueviolet;
+                    text-align:left;
+                    padding-bottom:50px;
+                    border-bottom: 20px dotted gray;
+				}
+                
+                h2 {
+                    font-size:15px ;
+                    width: 90px;
+			        margin: 0;
+			        padding: 20px;
+                }
+
+                h3 {
+                    font-size:25px;
+                    color:blue;
+                    font-style:italic;
+                }
+
+                ul {
+                    background-color: lightgray;
+                    border: 5px solid red;
+                    padding: 50px;
+                    margin:20px;
+					display:block;
+                    list-style-type: circle;
+                }
+
+                h4 {
+                    border-left:1px solid gray;
+			        margin: 0;
+			        padding: 20px;
+                }
+                
+                #grid{
+                    display:grid;
+                    grid-template-columns: 150px 1fr;
+                }
+
+                #active {
+                    color:green;
+                }
+		</style>
+
+	<body>
+		<h1>Soeun Nam</h1>
+        <div id="grid">
+            <div><h2>Web Developer</h2></div>
+            <div><h4>
+            <p> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p> A small river named Duden flows by their place and supplies it with the necessary regelialia.
+            It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            </h4></div>
+        </div>
+        <h3>Contact information</h3>
+        <ul>
+            <li>Email : jane@naver.com</li>
+            <li><a href="http://naver.com" id="active">Web : http://example.com</a></li>
+            <li>Tel : 123-4567</li>
+        </ul>
+
+	</body>   
+
+    </head>
+</html>
